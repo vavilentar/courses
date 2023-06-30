@@ -1,0 +1,451 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	font-weight: inherit;
+	font-size: inherit;
+	color: #252525;
+	font-family: 'Jost';
+
+}
+
+a {
+	text-decoration: none;
+	color: #252525;
+	font-family: 'Jost';
+}
+
+button {
+	color: #252525;
+	cursor: pointer;
+	font-family: 'Jost';
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+[class*="__container"] {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+body,
+html {
+	scroll-behavior: smooth;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+	padding: 0 25px;
+}
+
+.nav_container {
+	max-width: 1920px;
+	margin: 0 auto;
+
+}
+
+.nav_menu {
+	display: flex;
+	column-gap: 50px;
+}
+
+.nav h1 a,
+.nav h2 a {
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+}
+
+.nav_menu-item {
+	font-size: 20px;
+	color: white;
+
+}
+
+.header_phone-item {
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+
+}
+
+.header_black-wrapper {
+	background-color: #141024;
+}
+
+.hero {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	/* height: 917px; */
+	align-items: center;
+	justify-items: center;
+}
+
+.hero_block-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero_title {
+	color: white;
+	font-size: 70px;
+	font-weight: 600;
+}
+
+.hero_subtitle {
+	color: white;
+	font-size: 20px;
+	margin: 20px 0 50px 0;
+}
+
+.btn_red {
+	width: 260px;
+	height: 79px;
+	background-color: #D52027;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.hero_block-photo {
+	/* height: 917px; */
+}
+
+.hero_block-photo img {
+	/* height: 100%; */
+	width: 100%;
+}
+
+.about-us_subtitle {
+	font-size: 30px;
+}
+
+.about-us_subtitle span {
+	font-weight: 600;
+}
+
+.about-us,
+.advantages,
+.trainers,
+.packages {
+	margin: 100px auto;
+	padding: 50px 0;
+}
+
+.about-us_tabs {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+.about_tab {
+	width: fit-content;
+	height: fit-content;
+}
+
+.about-tab_number {
+	color: #D52027;
+	font-size: 70px;
+	font-weight: 600;
+}
+
+.about-tab_descr {
+	font-size: 18px;
+}
+
+.grey_wrapper {
+	background-color: #F9F9F9;
+}
+
+.advantages__container {}
+
+.advantages_subtitle,
+.trainers_subtitle,
+.packages_subtitle {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+.advantages_tabs {
+	display: flex;
+	margin-top: 50px;
+	column-gap: 100px;
+	padding: 0 0 25px 0;
+}
+
+.advantage_tab {
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+}
+
+.advantage-tab_title {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.advantage-tab_descr {}
+
+.trainers_tabs {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.trainer_tab {
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+}
+
+.trainer-tab_photo {}
+
+.trainer-tab_name {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.trainer-tab_prof {
+	font-size: 18px;
+}
+
+.trainer-tab_link {
+	font-size: 18px;
+	color: #D52027;
+}
+
+.trainer-tab_info {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.packages_tabs {
+	display: flex;
+	margin-top: 50px;
+	column-gap: 75px;
+	justify-content: center;
+}
+
+.package_tab {
+	width: 320px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	border-radius: 20px;
+	border: 1px solid #141024;
+	text-align: center;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+
+.package-tab_name {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.package-tab_info {
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+	align-items: center;
+}
+
+.package-tab_price {
+	font-weight: 600;
+	font-size: 50px;
+}
+
+.package-tab_descr {
+	font-size: 18px;
+}
+
+.btn_red {}
+
+.tab_black {
+	background-color: #252525;
+	transform: scale(1.07);
+}
+
+.tab_black h4 {
+	color: white;
+}
+
+.tab_black p {
+	color: white;
+}
+
+.red_wrapper {
+	background-color: #D52027;
+	background-image: url(./img/join_bg.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.join {
+	height: 460px;
+	display: grid;
+	grid-template-columns: repeat(2, .5fr);
+	align-items: center;
+	justify-content: center;
+}
+
+.join__container {}
+
+.join-block_info {
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+}
+
+.join-block_title {
+	font-weight: 600;
+	font-size: 36px;
+	color: white;
+}
+
+.join-block_subtitle {
+	font-size: 20px;
+	color: white;
+}
+
+.join-block_form {}
+
+.join_form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
+.join_form input {
+	width: 100%;
+	height: 64px;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.btn_black {
+	width: 100%;
+	height: 64px;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 5px;
+	color: white;
+	background-color: #252525;
+}
+
+
+@media (max-width: 1025px) {
+	.hero_title {
+		font-size: 60px;
+	}
+
+	.trainers_tabs {
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 25px;
+	}
+
+	.trainers,
+	.advantages,
+	.about-us,
+	.packages,
+	.join,
+	.hero {
+		padding: 0 25px;
+	}
+
+	.packages_tabs {
+		column-gap: 25px;
+	}
+}
+
+@media (max-width: 769px) {
+	.nav_menu {
+		display: none;
+	}
+
+	.hero_title {
+		font-size: 40px;
+	}
+
+	.btn_red {
+		height: 59px;
+		width: 180px;
+	}
+
+	.about-us_tabs {
+		justify-content: flex-start;
+		gap: 25px;
+		flex-wrap: wrap;
+	}
+
+	.package_tab {
+		height: 390px;
+	}
+
+	.package-tab_price {
+		font-size: 32px;
+	}
+
+	.tab_black {
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 426px) {
+	.hero {
+		grid-template-columns: 1fr;
+	}
+
+	.advantages_tabs {
+		row-gap: 50px;
+		flex-wrap: wrap;
+	}
+
+	.advantages_subtitle,
+	.trainers_subtitle,
+	.packages_subtitle {
+		line-height: 44px;
+		font-size: 34px;
+	}
+
+	.packages_tabs {
+		flex-wrap: wrap;
+		row-gap: 25px;
+	}
+	.join {
+		grid-template-columns: 1fr;
+		height: fit-content;
+		padding: 20px;
+		row-gap: 25px;
+	}
+	.nav {
+		flex-wrap: wrap;
+	}
+}
